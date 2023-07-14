@@ -6,18 +6,10 @@ import argparse
 import os
 
 
-# MODEL_PATH = {
-#     'opt-6.7b': 'facebook/opt-6.7b',
-#     'opt-2.7b': 'facebook/opt-2.7b',
-#     'opt-1.3b': 'facebook/opt-1.3b',
-# }
-
 MODEL_PATH = {
-    'opt-30b': '/data/share/Model/OPT/opt-30b/',
-    'opt-13b': '/data/share/Model/OPT/opt-13b/',
-    'opt-6.7b': '/data/share/Model/OPT/opt-6.7b/',
-    'opt-2.7b': '/data/share/opt/opt-2.7b/',
-    'opt-1.3b': '/data/share/Model/OPT/opt-1.3b/',
+    'opt-6.7b': 'facebook/opt-6.7b',
+    'opt-2.7b': 'facebook/opt-2.7b',
+    'opt-1.3b': 'facebook/opt-1.3b',
 }
 
 
