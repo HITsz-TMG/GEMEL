@@ -19,10 +19,10 @@ If you have any question, please feel free to contact me by e-mail: shisenbaohit
 
 [Here](https://arxiv.org/abs/2306.12725), you can see the detailed architecture and some experimental analyses of GEMEL.
 
-<p align="center" width="40%"><img src="images/Architecture.png" alt="GEMEL" style="width: 40%;  display: block; margin: auto;"></p>
+<p align="center" width="60%"><img src="images/Architecture.png" alt="GEMEL" style="width: 60%;  display: block; margin: auto;"></p>
 
 
-## :rocket: Usage
+## :rotating_light: Usage
     
 ### Environment
 
