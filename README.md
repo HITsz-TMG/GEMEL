@@ -1,5 +1,12 @@
 # GEMEL: Generative Multimodal Entity Linking
 
+<div align="center">
+
+ [Overview](https://github.com/HITsz-TMG/GEMEL#sparkles-overview) | [News](https://github.com/HITsz-TMG/GEMEL#fire-news) | [Architecture](https://github.com/HITsz-TMG/GEMEL#rocket-architecture) | [Usage](https://github.com/HITsz-TMG/GEMEL#rotating_light-usage) | [Citation](https://github.com/HITsz-TMG/GEMEL#citation) | [License](https://github.com/HITsz-TMG/GEMEL#license)
+
+</div>
+
+
 ## :sparkles: Overview
 
 This repository contains official implementation of our paper [Generative Multimodal Entity Linking](https://arxiv.org/abs/2306.12725).
