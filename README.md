@@ -40,6 +40,9 @@ conda create -n GEMEL python=3.7
 conda activate GEMEL
 pip install -r requirements.txt
 ```
+For different cuda versions you need to install the corresponding pytorch package. Find the appropriate installation package on the [pytorch](https://pytorch.org/get-started/previous-versions/) website. To install pytorch, we use the following command:
+`pip install torch==1.12.0+cu116 torchvision==0.13.0+cu116 torchaudio==0.12.0 --extra-index-url https://download.pytorch.org/whl/cu116`
+
 
 ### Data
 We have preprocessed the text, image, and knowledge base data. Download data from [here](https://drive.google.com/drive/folders/1M2wF2RkWpzeCKYj032bOryVPMM_DSubE?usp=sharing) and move to the `./data` folder.
