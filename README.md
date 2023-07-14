@@ -42,7 +42,9 @@ pip install -r requirements.txt
 ```
 For different cuda versions you need to install the corresponding pytorch package. Find the appropriate installation package on the [pytorch](https://pytorch.org/get-started/previous-versions/) website. To install pytorch, we use the following command:
 
-`pip install torch==1.12.0+cu116 torchvision==0.13.0+cu116 torchaudio==0.12.0 --extra-index-url https://download.pytorch.org/whl/cu116`
+```
+pip install torch==1.12.0+cu116 torchvision==0.13.0+cu116 torchaudio==0.12.0 --extra-index-url https://download.pytorch.org/whl/cu116
+```
 
 
 ### Data
@@ -58,7 +60,9 @@ SimCSE_train_mention_embeddings.pkl     ->      training set mention embeddings
 ### Train
 Running main.py directly will use the WikiDiverse dataset, opt-6.7b model:
 
-`python main.py`
+```
+python main.py
+```
 
 The model structure is in model.py, the default parameters are in params.py, and most of the data processing is in utils.py.
 
