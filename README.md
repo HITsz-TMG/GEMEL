@@ -1,11 +1,5 @@
 # GEMEL: Generative Multimodal Entity Linking
 
-<div align="center">
-
- [Overview](#Overview) | [News](#News) | [Architecture](#Architecture) | [Usage](#Usage) | [Citation](#Citation) | [License](#License)
-
-</div>
-
 ## :sparkles: Overview
 
 This repository contains official implementation of our paper [Generative Multimodal Entity Linking](https://arxiv.org/abs/2306.12725).
