@@ -38,7 +38,7 @@ If you have any question, please feel free to contact me by e-mail: shisenbaohit
 ```
 conda create -n GEMEL python=3.7
 conda activate GEMEL
-pip install -r requirement.txt
+pip install -r requirements.txt
 ```
 
 ### Data
