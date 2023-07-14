@@ -13,13 +13,16 @@ If you have any question, please feel free to contact me by e-mail: shisenbaohit
 
 ## :fire: News
 
-[23.07.14] We release the codes of GEMEL and the checkpoints of linear mapper.
+[23.07.14] We release the codes and the checkpoints of GEMEL.
 
 ## :rocket: Architecture
 
 [Here](https://arxiv.org/abs/2306.12725), you can see the detailed architecture and some experimental analyses of GEMEL.
 
-![](https://github.com/HITsz-TMG/GEMEL/blob/main/images/Architecture.png)
+
+<img src="https://github.com/HITsz-TMG/GEMEL/blob/main/images/Architecture.png" alt="Image" style="width: 680px; height: 694px;">
+
+[//]: # (![]&#40;https://github.com/HITsz-TMG/GEMEL/blob/main/images/Architecture.png&#41;)
 
 ## :rocket: Usage
     
