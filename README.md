@@ -16,6 +16,8 @@ frozen and only train a linear layer to enable cross-modality interactions. To a
 emerging in-context learning (ICL) capability of LLMs by retrieving multimodal instances as demonstrations. Our method achieves state-of-the-art results on two well-established
 MEL datasets, namely [WikiDiverse](https://arxiv.org/abs/2204.06347) and [WikiMEL](https://dl.acm.org/doi/abs/10.1145/3477495.3531867).
 
+Checkpoint and preprocessed data can be accessed [here](https://drive.google.com/drive/folders/1M2wF2RkWpzeCKYj032bOryVPMM_DSubE?usp=sharing).
+
 If you have any question, please feel free to contact me by e-mail: shisenbaohit@gmail.com or submit your issue in the repository.
 
 ## :fire: News
@@ -40,7 +42,8 @@ pip install -r requirement.txt
 ```
 
 ### Data
-We have preprocessed the text, image, and knowledge base data, and the results are in the `./data` folder.
+We have preprocessed the text, image, and knowledge base data. Download data from [here](https://drive.google.com/drive/folders/1M2wF2RkWpzeCKYj032bOryVPMM_DSubE?usp=sharing) and move to the `./data` folder.
+
 ```
 train.json, dev.json, test.json         ->      textual data files
 clip_vit_large_patch14_1024.hdf5        ->      visual data file
@@ -68,7 +71,7 @@ python main.py --dataset wikimel --model_name opt-6.7b --ICL_examples_num 16
 ```
 
 ### Test
-The checkpoint for the linear mapper is saved in the `./checkpoint` folder.
+Download checkpoint from [here](https://drive.google.com/drive/folders/1M2wF2RkWpzeCKYj032bOryVPMM_DSubE?usp=sharing) and move to the `./checkpoint` folder.
 
 For testing on WikiDiverse test set:
 ```
