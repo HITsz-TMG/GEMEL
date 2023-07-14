@@ -20,7 +20,9 @@ If you have any question, please feel free to contact me by e-mail: shisenbaohit
 [Here](https://arxiv.org/abs/2306.12725), you can see the detailed architecture and some experimental analyses of GEMEL.
 
 
-<img src="https://github.com/HITsz-TMG/GEMEL/blob/main/images/Architecture.png" alt="Image" style="width: 680px; height: 694px;">
+<img src="https://github.com/HITsz-TMG/GEMEL/blob/main/images/Architecture.png" alt="Image" style="max-height: 200px; width: auto;">
+
+
 
 [//]: # (![]&#40;https://github.com/HITsz-TMG/GEMEL/blob/main/images/Architecture.png&#41;)
 
