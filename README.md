@@ -11,10 +11,7 @@
 
 This repository contains official implementation of our paper [Generative Multimodal Entity Linking](https://arxiv.org/abs/2306.12725).
 
-GEMEL is a novel method that utilizes a generative Large Language Model (LLM) to address the Multimodal Entity Linking (MEL) task. We keep the vision and language model
-frozen and only train a linear layer to enable cross-modality interactions. To adapt LLMs to the MEL task, we take advantage of the
-emerging in-context learning (ICL) capability of LLMs by retrieving multimodal instances as demonstrations. Our method achieves state-of-the-art results on two well-established
-MEL datasets, namely [WikiDiverse](https://arxiv.org/abs/2204.06347) and [WikiMEL](https://dl.acm.org/doi/abs/10.1145/3477495.3531867).
+GEMEL is a simple yet effective Generative Multimodal Entity Linking framework based on LLMs, which directly generates target entity names. We keep the vision and language model frozen and only train a feature mapper to enable cross-modality interactions. To adapt LLMs to the MEL task, we take advantage of the emergent in-context learning capability of LLMs by retrieving multimodal instances as demonstrations. Extensive experiments show that, with only ~0.3% of the model parameters fine-tuned, GEMEL achieves state-of-the-art results on two well-established MEL datasets, namely [WikiDiverse](https://arxiv.org/abs/2204.06347) and [WikiMEL](https://dl.acm.org/doi/abs/10.1145/3477495.3531867). Our framework is compatible with any off-the-shelf language model, paving the way towards an efficient and general solution for utilizing LLMs in the MEL task.
 
 Checkpoint and preprocessed data can be accessed [here](https://drive.google.com/drive/folders/1M2wF2RkWpzeCKYj032bOryVPMM_DSubE?usp=sharing).
 
