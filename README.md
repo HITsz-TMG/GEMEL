@@ -20,13 +20,14 @@ If you have any question, please feel free to contact me by e-mail: shisenbaohit
 ## :fire: News
 
 [23.07.14] We release the codes and the checkpoints of GEMEL.
+
 [23.08.21] We have updated our paper.
 
 ## :rocket: Architecture
 
 [Here](https://arxiv.org/abs/2306.12725), you can see the detailed architecture and some experimental analyses of GEMEL.
 
-<p align="center" width="60%"><img src="images/Architecture.png" alt="GEMEL" style="width: 90%;  display: block; margin: auto;"></p>
+<p align="center" width="60%"><img src="images/Architecture.png" alt="GEMEL" style="width: 100%;  display: block; margin: auto;"></p>
 
 
 ## :rotating_light: Usage
