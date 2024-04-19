@@ -46,7 +46,7 @@ pip install torch==1.12.0+cu116 torchvision==0.13.0+cu116 torchaudio==0.12.0 --e
 
 
 ### Data
-We have preprocessed the text, image, and knowledge base data. Download data from [here](https://drive.google.com/drive/folders/1M2wF2RkWpzeCKYj032bOryVPMM_DSubE?usp=sharing) and move to the `./data` folder.
+We have preprocessed the text, image, and knowledge base data. Download data from [here](https://drive.google.com/drive/folders/1M2wF2RkWpzeCKYj032bOryVPMM_DSubE?usp=sharing) and move to the `./data` folder. [Here](https://github.com/Senbao-Shi/How-to-Build-and-Use-a-Prefix-Tree/tree/main) we offer guidelines on how to build and use a prefix tree for constrained decoding.
 
 ```
 train.json, dev.json, test.json         ->      textual data files
