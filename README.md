@@ -29,7 +29,7 @@ If you have any question, please feel free to contact me via email at shisenbaoh
 
 <p align="center" width="60%"><img src="GEMEL.png" alt="GEMEL" style="width: 100%;  display: block; margin: auto;"></p>
 
-## :rotating_light: Usage
+## 🛠️ Usage
 
 ### Environment
 
@@ -90,13 +90,15 @@ python infe.py --dataset wikimel --model_name opt-6.7b --best_ckpt opt-6.7b_wiki
 ```
 
 
-## Citation
+## 📚 Citation
 ```
-@article{shi2023generative,
-  title={Generative Multimodal Entity Linking},
-  author={Shi, Senbao and Xu, Zhenran and Hu, Baotian and Zhang, Min},
-  journal={arXiv preprint arXiv:2306.12725},
-  year={2023}
+@inproceedings{shi-etal-2024-generative,
+    title = "Generative Multimodal Entity Linking",
+    author = "Shi, Senbao and Xu, Zhenran and Hu, Baotian and Zhang, Min",
+    booktitle = "Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024)",
+    year = "2024",
+    url = "https://aclanthology.org/2024.lrec-main.676/",
+    pages = "7654--7665"
 }
 ```
 
